@@ -21,7 +21,7 @@ function snapCrackle(maxValue)
 
         if (contar%2 !== 0 && contar%5 === 0) {string+="SnapCrackle, "; continue}
         if (contar%2 !== 0) {string+="Snap, "; continue}
-        if (contar%5 === 0) {string+="Crackle, "}        
+        if (contar%5 === 0) {string+="Crackle, "; continue}        
         
         string += contar + ", "
 
@@ -30,4 +30,4 @@ function snapCrackle(maxValue)
     console.log(string)
 }
 
-snapCrackle(15)
+snapCrackle(20)
